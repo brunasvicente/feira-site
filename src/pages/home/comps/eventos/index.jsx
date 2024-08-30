@@ -7,7 +7,7 @@ export function Feira(){
 
     const slides_feira = [
         {
-            img 
+            
         
         }
     ]
