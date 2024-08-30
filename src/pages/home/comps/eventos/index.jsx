@@ -5,23 +5,7 @@ export function Feira(){
     const [slide,setSlide] = useState(0);
     const [intervalo, setIntevalo] = useState([]);
 
-    const slides_feira = [
-        {
-<<<<<<< HEAD
-           
-=======
-            
->>>>>>> 1661d3e5f57276226487489df9b8a66f6a92c3d8
-        
-        }
-    ]
 
-
-
-
-    function Slide(){
-
-    }
 
 return(
 <div className="container-feira-profissoes">
