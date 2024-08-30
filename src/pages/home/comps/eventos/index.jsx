@@ -5,15 +5,10 @@ export function Feira(){
     const [slide,setSlide] = useState(0);
     const [intervalo, setIntevalo] = useState([]);
 
-
-
-<<<<<<< HEAD
     function Slide(){
 
     }
 
-=======
->>>>>>> 01935cba457c2a07c61e52705e4d1c1ab26bb9e5
 return(
 <div className="container-feira-profissoes">
 
