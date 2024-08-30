@@ -7,7 +7,11 @@ export function Feira(){
 
     const slides_feira = [
         {
+<<<<<<< HEAD
            
+=======
+            
+>>>>>>> 1661d3e5f57276226487489df9b8a66f6a92c3d8
         
         }
     ]
