@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.secao{
+    
+    
+.texto{
+    display: flex;
+    flex-direction: row;
+
+
+    
+    
+    h1{
+        color: #fff;
+        text-align: center;
+
+    }
+    .link{
+        color: chocolate;
+        text-decoration: none;
+        border-radius: 12px;
+       
+    }
+}
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        padding: 70px;
+        background-color: #fff;
+        border-radius: 12px;
+        margin: 80px;
+        box-shadow: 2px 2px 10px #3d3f42;
+
+
+        .top{
+            display: flex;
+            flex-direction: row;
+            gap: 350px;
+            margin-top: 40px;
+
+           
+        }
+
+        .celular{
+            display: flex;
+            flex-direction: column;
+
+
+            .input{
+                display: flex;
+                flex-direction: row;
+
+          
+            .sub{
+            .pesq{
+                border-radius: 5px;
+                width: 150px;
+                height: 30px;
+            }
+            .iconpesq{
+                width: 30px;
+                height: auto;
+       
+            }
+          }   
+            .logo{
+             
+            width: 150px;
+            height: auto;
+            margin-left: 450px;
+
+                 }  
+        }
+        }
+
+        .tb{
+            display: flex;
+            flex-direction: column;
+
+
+
+            .nomes{
+                display: flex;
+                flex-direction: row;
+                color: #2E448A;
+                padding: 10px;
+                gap: 110px;
+
+            }
+            .informacoes{
+                display: flex;
+                flex-direction: row;
+                gap: 100px;
+                background-color:#2E448A ;
+                color: #fff;
+                width: 600px;
+                padding: 10px;
+
+            }
+        }
+       
+
+
+
+    }
+
+
+
+
+}
