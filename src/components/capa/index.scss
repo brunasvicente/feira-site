@@ -1,0 +1,59 @@
+.pagina-capa {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  $main-color:  linear-gradient(to bottom, rgba(249,129,37,1) 0%, rgba(250,142,59,1) 35%, rgba(251,155,80,1) 100%);
+
+  font: 700 20px Inter  ;
+  height: 100vh;
+  background-image: url(../../../public/assets/images/fundo.svg);
+  background-repeat: no-repeat;
+  
+  
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+  
+
+.navegacao-links {
+  display: flex;
+  gap: 15px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .log {
+    font-weight: 800;
+    background-image: $main-color;
+    background-clip: text;  
+    -webkit-text-fill-color: transparent;
+    color: #000;
+
+    border: solid 3px #CE7C3D;
+    border-radius: 8px;
+    padding: 5px 15px;
+    -webkit-box-shadow: 0px 0px 39px -8px rgba(206,124,61,1);
+    -moz-box-shadow: 0px 0px 39px -8px rgba(206,124,61,1);
+    box-shadow: 0px 0px 39px -8px rgba(206,124,61,1);
+  }
+
+
+  
+
+}
