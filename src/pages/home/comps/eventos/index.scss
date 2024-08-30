@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Clash Display;
+    src: url('../../../../../public/assets/fonts/ClashDisplay-Semibold.otf');
+}
+
+.container-feira-profissoes{
+
+    .faixa{
+        display: flex;
+        width: 90%;
+        background-color: #000;
+        height: 2px;
+        justify-content: center;
+        align-items: center;
+    }
+display: flex;
+flex-direction: column;
+gap: 20px;
+justify-content: center;
+align-items: center;
+   .cabecalho{
+    display: flex;
+    justify-content: center;
+
+   }
+.o-que-tera{
+    display: flex;
+    font-family: "Clash Display";
+    font-weight: 600;
+    font-size: 35px;
+    color: #FA9140;
+}
+
+.carrocel{
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  .rolagem{
+    display: flex;
+   img{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    
+   }
+  }
+
+
+  .info-paragrafo{
+    font-size: 15px;
+    font-weight: 700;
+    width: 290px;
+  }
+   
+}
+
+
+.central-rolagem{
+    display: flex;
+
+    margin-top:15px;
+    gap: 10px;
+    justify-content: center;
+
+    button{
+        display: flex;
+        height: 12px;
+        border-radius:50%;
+       border:0px;
+       background-color: #8F97AC;
+    }
+
+    button:hover{
+        background-color: #182754;
+    }
+}
+
+
+
+@media(max-width: 800px){
+
+ .carrocel{
+    display: flex;
+    flex-direction: column;
+
+    .rolagem{
+
+        img{
+            display: flex;
+            width: 200px;
+            height: 200px;
+            justify-content: center;
+            
+        }
+        display: flex;
+        justify-content: center;
+        
+    }
+ }   
+}
+}
+
