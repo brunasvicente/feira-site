@@ -9,7 +9,6 @@ export default function Chegada(){
         <div className="secao1">
 
 
-
         </div>
 
         

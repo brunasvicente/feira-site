@@ -5,14 +5,6 @@ export function Feira(){
     const [slide,setSlide] = useState(0);
     const [intervalo, setIntevalo] = useState([]);
 
-    const slides_feira = [
-        {
-            img 
-        
-        }
-    ]
-
-
 
 
     function Slide(){
