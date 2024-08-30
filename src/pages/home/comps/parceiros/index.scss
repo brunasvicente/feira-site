@@ -1,0 +1,45 @@
+.parceiros{
+    gap: 30px;
+
+    .titulo{
+
+        display:inline;
+        text-align: center;
+        font-size: 30px;
+        color: #182754;
+
+        
+    }
+
+    .parceiros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .parceiro {
+
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+
+            img{
+                width: 80px;
+                
+            }
+
+
+        }
+       
+    }
+    
+
+    @media ( maxwidth:768px ){
+
+
+        .titulo{
+            max-width: 100px;
+        }
+
+        
+    }
+}
