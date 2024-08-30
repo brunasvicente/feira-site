@@ -20,6 +20,23 @@ export default function Capa() {
         </nav>
       </header>
 
+<div className="secao">
+    <div className="enunciadoFeira">
+      <div className="feiraTitulo">
+    <h1>4ª</h1> <h2>Feira</h2> 
+      </div>
+    <h2>de Profissões</h2>
+
+    <h3>O FUTURO ESTA Á BORDO</h3>
+    <h4>21 DE SETEMBRO DE 2024</h4>
+
+
+    <button>Inscreva-se</button>
+
+    </div>
+
+</div>
+
     </div>
 
 
