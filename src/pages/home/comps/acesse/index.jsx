@@ -11,7 +11,7 @@ export default function Acessar(){
         nossas informações
             </h1>
         </div>
-       <Link className='botaozinho'>Acessar</Link>
+       <Link className='botaozinho' hrefLang='https://acaonsfatima.org.br/'>Acessar</Link>
         </div>
 
 
