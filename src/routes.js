@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import {Feira} from "../src/pages/home/comps/eventos"
 
+
 import Home from './pages/home';
 
 
