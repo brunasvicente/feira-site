@@ -1,17 +1,21 @@
+
+
+
 .pagina-capa {
   *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #ffffff;
+    font-family: 'clash-display-semiBold';
   }
 
   $main-color:  linear-gradient(to bottom, rgba(249,129,37,1) 0%, rgba(250,142,59,1) 35%, rgba(251,155,80,1) 100%);
 
-  font: 700 20px Inter  ;
   height: 100vh;
   background-image: url(../../../public/assets/images/fundo.svg);
   background-repeat: no-repeat;
-  
+  background-size: 100%;
   
 
 
@@ -31,20 +35,29 @@ nav {
 
 ul {
     list-style: none;
+    a {
+      font: 700 20px Inter;
+      text-decoration: none;
+      
+      
+    }
 }
 
-  a {
-    text-decoration: none;
-    color: #fff;
-  }
+
+
+.log, h1, h3 {
+  background-image: $main-color;
+  background-clip: text;  
+  -webkit-text-fill-color: transparent;
+} 
+
+
+
 
   .log {
     font-weight: 800;
-    background-image: $main-color;
-    background-clip: text;  
-    -webkit-text-fill-color: transparent;
-    color: #000;
-
+   
+   
     border: solid 3px #CE7C3D;
     border-radius: 8px;
     padding: 5px 15px;
@@ -53,7 +66,61 @@ ul {
     box-shadow: 0px 0px 39px -8px rgba(206,124,61,1);
   }
 
+.feiraTitulo {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin-bottom: -50px;
+  margin-left: -14%;
+}
 
+
+h1{
+  font-size: 173.49px;
   
+}
+
+h2{
+  font-size:  111.04px ;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+
+h4 {
+  font-size: 
+  27.76px;
+}
+
+
+.enunciadoFeira{
+  gap: -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+button {
+
+  text-decoration: none;
+  margin-top: 1.5%;
+  padding: 1% 5%;
+  background-image: $main-color;
+  border-style: none;
+  border-radius: 12px;
+  font-size: 28px;
+
+
+  box-shadow: 5.78px 11.57px 5.78px 0px #0000001A;
+  ;
+}
+
+
+
 
 }
