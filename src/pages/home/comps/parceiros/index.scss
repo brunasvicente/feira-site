@@ -1,0 +1,36 @@
+.parceiros{
+
+
+
+
+
+
+    .titulo{
+
+        display:inline;
+        text-align: center;
+        font-size: 40px;
+
+        
+    }
+
+    .parceiros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .parceiro {
+
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+            img{
+                width: 30px;
+                height: auto;
+            }
+
+
+        }
+    }
+}
