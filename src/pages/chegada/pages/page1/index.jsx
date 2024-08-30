@@ -55,7 +55,6 @@ export default function Chegada(){
             </div>
 
 
-
         </div>
 
         
