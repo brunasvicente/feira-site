@@ -1,0 +1,123 @@
+
+
+
+
+.inscrevase {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+
+
+.ondinhas {
+    height: 100vh;
+    width: 110vh;
+    margin-left: -90vh;
+}
+
+.p1 {
+    font-size: 7vh;
+  width: 600px;
+  margin-left: -10 vh;
+
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  margin-top: 10vh;
+  
+   
+}
+
+.text {
+
+    display: flex;
+
+
+    flex-direction: column;
+    justify-content: center ;
+    width: 400px;
+    align-items: center;
+    margin-right: 40px;
+    
+
+}
+
+
+
+.partedireita {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 15vh;
+    gap: 8vh;
+}
+
+.botao1 {
+    background-color: orange;
+    width:23vh;
+    height: 6vh;
+    border-radius: 9px;
+    border: 0vh solid ;
+    box-shadow: 0.5vh 0.5vh 0.4vh rgb(199, 195, 195);
+    color:white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    align-items: center;
+    margin-left: -13vh;
+    
+
+}
+
+.botao2{
+
+border: 0.4vh solid;
+background-color: white;
+color: black;
+height:6vh ;
+width:23vh ;
+box-shadow: 0.5vh 0.5vh 0.4vh rgb(199, 195, 195);
+border-radius: 9px;
+
+}
+
+
+
+/* Set the viewport width and initial scale */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  @media (max-width: 768vh) {
+    
+  }
+  
+  @media (min-width: 769vh) and (max-width: 1024vh) {
+   
+  }
+  
+  @media (min-width: 1025vh) {
+    
+  }
+  
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10vh;
+  }
+  
+  .item {
+    grid-column: span 3;
+  }
