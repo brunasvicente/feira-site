@@ -1,0 +1,71 @@
+//Animação da Setinha
+.abrir{
+    animation: abrir forwards .1s;
+}
+
+.fechar{
+    animation: fechar forwards .1s;
+}
+
+@keyframes abrir {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes fechar {
+    from {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+
+//Estilização da Página
+.pagina-faq{
+    background-color: #182754;
+    padding-bottom: 50px;
+
+
+    h1{
+        color: #fff;
+        padding-top: 80px;
+        padding: 95px 0px 0px 90px;
+        font: 600 40px 'SUSE';
+    }
+
+    hr{
+        margin: 35px 90px 0px 90px;
+    }
+
+
+    .perguntas{
+        .seta{
+            list-style: none;
+            margin-top: -170px;
+            margin-left: 100px;
+        }
+        
+        img{
+            height: 25px;
+        }
+
+        summary{
+            color: #fff;
+            padding-top: 80px;
+            padding: 95px 0px 0px 90px;
+            font: 600 30px 'SUSE';
+        }
+
+        p{
+            color: #fff;
+            font: 250 20px 'Inter';
+            margin: 50px 0px 50px 120px;
+        }
+    }
+}
