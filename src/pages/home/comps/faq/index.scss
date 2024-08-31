@@ -1,4 +1,7 @@
-//Animação da Setinha
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*Animação da Setinha Principal*/
 .abrir{
     animation: abrir forwards .1s;
 }
@@ -26,11 +29,15 @@
 }
 
 
-//Estilização da Página
+/*Estilização da Página*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 .pagina-faq{
     background-color: #182754;
     padding-bottom: 50px;
-
 
     h1{
         color: #fff;
@@ -43,29 +50,132 @@
         margin: 35px 90px 0px 90px;
     }
 
-
     .perguntas{
         .seta{
             list-style: none;
             margin-top: -170px;
             margin-left: 100px;
         }
-        
+
         img{
             height: 25px;
+            margin-left: 90px;
         }
 
         summary{
             color: #fff;
             padding-top: 80px;
-            padding: 95px 0px 0px 90px;
+            padding: 90px 0px 0px 0px;
             font: 600 30px 'SUSE';
+            margin: 5px 90px 5px 90px;
         }
 
-        p{
+        p {
             color: #fff;
             font: 250 20px 'Inter';
-            margin: 50px 0px 50px 120px;
+            margin: 20px 100px 0px 100px;
+        }
+    }
+}
+
+
+/*Responsividade*/
+@media (max-width: 1200px) {
+    .pagina-faq {
+        h1 {
+            padding-left: 0px;
+            margin-left: 0px;
+            font-size: 35px;
+        }
+
+        hr {
+            margin: 20px 0px;
+        }
+
+        .perguntas {
+            .seta {
+                margin-left: 0px;
+            }
+
+            summary {
+                padding-left: 0px;
+                margin-left: 0px;
+                font-size: 25px;
+            }
+
+            p {
+                margin-left: 0px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .pagina-faq {
+        h1 {
+            padding: 20px 0px;
+            margin-left: 0px;
+            font-size: 30px;
+        }
+
+        hr {
+            width: 100%;
+            margin: 15px 0px;
+        }
+
+        .perguntas {
+            .seta {
+                margin: 0px;
+            }
+
+            summary {
+                padding: 10px 0px;
+                margin-left: 0px;
+                font-size: 20px;
+                text-align: left;
+            }
+
+            p {
+                margin: 10px 0px;
+                margin-left: 0px;
+                font-size: 18px;
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .pagina-faq {
+        h1 {
+            padding: 10px 0;
+            margin-left: 5px;
+            font-size: 25px;
+        }
+
+        hr {
+            width: 95%;
+            margin: 10px 5px;
+        }
+
+        .perguntas {
+            .seta {
+                margin: 10px 0 10px 5px;
+            }
+
+            summary {
+                padding: 5px 0;
+                margin-left: 5px;
+                font-size: 18px;
+                text-align: left;
+            }
+
+            p {
+                background-color: black;
+                margin: 8px 5px;
+                font-size: 16px;
+                text-align: left;
+            }
         }
     }
 }
